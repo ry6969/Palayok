@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace Palayok.UI
 {
-    public partial class StartScreen : UserControl
+    public partial class StartScreen : BaseScreen
     {
         public StartScreen()
         {
@@ -20,9 +20,9 @@ namespace Palayok.UI
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void StartBtn_Click(object sender, EventArgs e)
         {
-
+            RaiseNavigate("RecipeSelectionScreen");
         }
     }
 }

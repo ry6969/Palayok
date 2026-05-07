@@ -28,143 +28,159 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RecipeSelectionScreen));
+            Recipe1Btn = new Button();
+            Recipe2Btn = new Button();
+            Recipe3Btn = new Button();
+            Recipe4Btn = new Button();
+            Recipe5Btn = new Button();
+            Recipe6Btn = new Button();
+            ViewIngredientsBtn = new Button();
+            CookBtn = new Button();
+            ChosenLabel = new Label();
             pictureBox1 = new PictureBox();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button7 = new Button();
+            universalBackBtn1 = new UniversalBackBtn();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            pictureBox1.SuspendLayout();
             SuspendLayout();
+            // 
+            // Recipe1Btn
+            // 
+            Recipe1Btn.Image = Properties.Resources.Adobo;
+            Recipe1Btn.Location = new Point(121, 173);
+            Recipe1Btn.Name = "Recipe1Btn";
+            Recipe1Btn.Size = new Size(198, 98);
+            Recipe1Btn.TabIndex = 1;
+            Recipe1Btn.UseVisualStyleBackColor = true;
+            // 
+            // Recipe2Btn
+            // 
+            Recipe2Btn.Image = Properties.Resources.Tinola;
+            Recipe2Btn.Location = new Point(375, 173);
+            Recipe2Btn.Name = "Recipe2Btn";
+            Recipe2Btn.Size = new Size(203, 98);
+            Recipe2Btn.TabIndex = 2;
+            Recipe2Btn.UseVisualStyleBackColor = true;
+            // 
+            // Recipe3Btn
+            // 
+            Recipe3Btn.FlatAppearance.BorderSize = 0;
+            Recipe3Btn.Image = Properties.Resources.TortangTalong;
+            Recipe3Btn.Location = new Point(641, 173);
+            Recipe3Btn.Name = "Recipe3Btn";
+            Recipe3Btn.Size = new Size(198, 98);
+            Recipe3Btn.TabIndex = 3;
+            Recipe3Btn.UseVisualStyleBackColor = true;
+            // 
+            // Recipe4Btn
+            // 
+            Recipe4Btn.Image = Properties.Resources.PaksiwnaBangus;
+            Recipe4Btn.Location = new Point(116, 309);
+            Recipe4Btn.Name = "Recipe4Btn";
+            Recipe4Btn.Size = new Size(203, 98);
+            Recipe4Btn.TabIndex = 4;
+            Recipe4Btn.UseVisualStyleBackColor = true;
+            // 
+            // Recipe5Btn
+            // 
+            Recipe5Btn.Image = Properties.Resources.PorkMonggo;
+            Recipe5Btn.Location = new Point(375, 309);
+            Recipe5Btn.Name = "Recipe5Btn";
+            Recipe5Btn.Size = new Size(203, 98);
+            Recipe5Btn.TabIndex = 5;
+            Recipe5Btn.UseVisualStyleBackColor = true;
+            // 
+            // Recipe6Btn
+            // 
+            Recipe6Btn.Image = Properties.Resources.NilagangBaka;
+            Recipe6Btn.Location = new Point(636, 309);
+            Recipe6Btn.Name = "Recipe6Btn";
+            Recipe6Btn.Size = new Size(203, 98);
+            Recipe6Btn.TabIndex = 6;
+            Recipe6Btn.UseVisualStyleBackColor = true;
+            // 
+            // ViewIngredientsBtn
+            // 
+            ViewIngredientsBtn.Image = Properties.Resources.View;
+            ViewIngredientsBtn.Location = new Point(285, 459);
+            ViewIngredientsBtn.Name = "ViewIngredientsBtn";
+            ViewIngredientsBtn.Size = new Size(148, 71);
+            ViewIngredientsBtn.TabIndex = 8;
+            ViewIngredientsBtn.UseVisualStyleBackColor = true;
+            ViewIngredientsBtn.Click += ViewIngredientsBtn_Click;
+            // 
+            // CookBtn
+            // 
+            CookBtn.Image = Properties.Resources.Cook;
+            CookBtn.Location = new Point(499, 459);
+            CookBtn.Name = "CookBtn";
+            CookBtn.Size = new Size(148, 71);
+            CookBtn.TabIndex = 9;
+            CookBtn.UseVisualStyleBackColor = true;
+            CookBtn.Click += CookBtn_Click;
+            // 
+            // ChosenLabel
+            // 
+            ChosenLabel.BackColor = Color.Transparent;
+            ChosenLabel.Font = new Font("Pixelify Sans", 32F);
+            ChosenLabel.ForeColor = SystemColors.Control;
+            ChosenLabel.Location = new Point(584, 24);
+            ChosenLabel.Name = "ChosenLabel";
+            ChosenLabel.Size = new Size(342, 84);
+            ChosenLabel.TabIndex = 10;
             // 
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Image = Properties.Resources.MealSelectRT;
+            pictureBox1.Controls.Add(ChosenLabel);
+            pictureBox1.Controls.Add(universalBackBtn1);
+            pictureBox1.Controls.Add(CookBtn);
+            pictureBox1.Controls.Add(ViewIngredientsBtn);
+            pictureBox1.Controls.Add(Recipe6Btn);
+            pictureBox1.Controls.Add(Recipe5Btn);
+            pictureBox1.Controls.Add(Recipe4Btn);
+            pictureBox1.Controls.Add(Recipe3Btn);
+            pictureBox1.Controls.Add(Recipe2Btn);
+            pictureBox1.Controls.Add(Recipe1Btn);
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(960, 576);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // button1
+            // universalBackBtn1
             // 
-            button1.Image = Properties.Resources.Adobo;
-            button1.Location = new Point(121, 173);
-            button1.Name = "button1";
-            button1.Size = new Size(198, 98);
-            button1.TabIndex = 1;
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // button2
-            // 
-            button2.Image = Properties.Resources.Tinola;
-            button2.Location = new Point(375, 173);
-            button2.Name = "button2";
-            button2.Size = new Size(203, 98);
-            button2.TabIndex = 2;
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
-            // 
-            // button3
-            // 
-            button3.Image = Properties.Resources.TortangTalong;
-            button3.Location = new Point(641, 173);
-            button3.Name = "button3";
-            button3.Size = new Size(198, 98);
-            button3.TabIndex = 3;
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.Image = Properties.Resources.PaksiwnaBangus;
-            button4.Location = new Point(116, 309);
-            button4.Name = "button4";
-            button4.Size = new Size(203, 98);
-            button4.TabIndex = 4;
-            button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            button5.Image = Properties.Resources.PorkMonggo;
-            button5.Location = new Point(375, 309);
-            button5.Name = "button5";
-            button5.Size = new Size(203, 98);
-            button5.TabIndex = 5;
-            button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            button6.Image = Properties.Resources.NilagangBaka;
-            button6.Location = new Point(636, 309);
-            button6.Name = "button6";
-            button6.Size = new Size(203, 98);
-            button6.TabIndex = 6;
-            button6.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            button8.Image = Properties.Resources.View;
-            button8.Location = new Point(285, 459);
-            button8.Name = "button8";
-            button8.Size = new Size(148, 71);
-            button8.TabIndex = 8;
-            button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            button9.Image = Properties.Resources.Cook;
-            button9.Location = new Point(499, 459);
-            button9.Name = "button9";
-            button9.Size = new Size(148, 71);
-            button9.TabIndex = 9;
-            button9.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            button7.Image = Properties.Resources.Back;
-            button7.Location = new Point(26, 135);
-            button7.Name = "button7";
-            button7.Size = new Size(66, 66);
-            button7.TabIndex = 7;
-            button7.UseVisualStyleBackColor = true;
+            universalBackBtn1.BackColor = Color.Transparent;
+            universalBackBtn1.Location = new Point(25, 132);
+            universalBackBtn1.Name = "universalBackBtn1";
+            universalBackBtn1.Size = new Size(66, 66);
+            universalBackBtn1.TabIndex = 10;
+            universalBackBtn1.Load += universalBackBtn1_Load;
             // 
             // RecipeSelectionScreen
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(button9);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
             Controls.Add(pictureBox1);
             Name = "RecipeSelectionScreen";
             Size = new Size(960, 576);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            pictureBox1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
-
+        private Button Recipe1Btn;
+        private Button Recipe2Btn;
+        private Button Recipe3Btn;
+        private Button Recipe4Btn;
+        private Button Recipe5Btn;
+        private Button Recipe6Btn;
+        private Button ViewIngredientsBtn;
+        private Button CookBtn;
+        private Label ChosenLabel;
         private PictureBox pictureBox1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button8;
-        private Button button9;
-        private Button button7;
+        private UniversalBackBtn universalBackBtn1;
     }
 }

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             pictureBox1 = new PictureBox();
-            button1 = new Button();
+            universalBackBtn1 = new UniversalBackBtn();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -41,21 +41,20 @@
             pictureBox1.Size = new Size(960, 576);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            pictureBox1.Controls.Add(universalBackBtn1);
             // 
-            // button1
+            // universalBackBtn1
             // 
-            button1.Image = Properties.Resources.Back;
-            button1.Location = new Point(28, 133);
-            button1.Name = "button1";
-            button1.Size = new Size(66, 66);
-            button1.TabIndex = 9;
-            button1.UseVisualStyleBackColor = true;
+            universalBackBtn1.Location = new Point(25, 132);
+            universalBackBtn1.Name = "universalBackBtn1";
+            universalBackBtn1.Size = new Size(66, 66);
+            universalBackBtn1.TabIndex = 1;
             // 
             // ViewIngredients
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(button1);
             Controls.Add(pictureBox1);
             Name = "ViewIngredients";
             Size = new Size(960, 576);
@@ -67,6 +66,6 @@
         #endregion
 
         private PictureBox pictureBox1;
-        private Button button1;
+        private UniversalBackBtn universalBackBtn1;
     }
 }

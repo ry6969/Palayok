@@ -30,10 +30,11 @@
         {
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
-            button7 = new Button();
-            button1 = new Button();
+            NextBtn = new Button();
+            universalBackBtn1 = new UniversalBackBtn();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            pictureBox2.SuspendLayout();
             SuspendLayout();
             // 
             // pictureBox1
@@ -46,6 +47,8 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.Controls.Add(NextBtn);
+            pictureBox2.Controls.Add(universalBackBtn1);
             pictureBox2.Image = Properties.Resources.adobo1;
             pictureBox2.Location = new Point(0, 0);
             pictureBox2.Name = "pictureBox2";
@@ -53,36 +56,40 @@
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
             // 
-            // button7
+            // NextBtn
             // 
-            button7.Image = Properties.Resources.Back;
-            button7.Location = new Point(25, 130);
-            button7.Name = "button7";
-            button7.Size = new Size(66, 66);
-            button7.TabIndex = 9;
-            button7.UseVisualStyleBackColor = true;
+            NextBtn.BackColor = Color.Transparent;
+            NextBtn.FlatAppearance.BorderSize = 0;
+            NextBtn.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            NextBtn.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            NextBtn.FlatStyle = FlatStyle.Flat;
+            NextBtn.Image = Properties.Resources.LetsGo;
+            NextBtn.Location = new Point(600, 453);
+            NextBtn.Name = "NextBtn";
+            NextBtn.Size = new Size(155, 75);
+            NextBtn.TabIndex = 10;
+            NextBtn.UseVisualStyleBackColor = false;
+            NextBtn.Click += NextBtn_Click;
             // 
-            // button1
+            // universalBackBtn1
             // 
-            button1.Image = Properties.Resources.LetsGo;
-            button1.Location = new Point(600, 453);
-            button1.Name = "button1";
-            button1.Size = new Size(155, 75);
-            button1.TabIndex = 10;
-            button1.UseVisualStyleBackColor = true;
+            universalBackBtn1.BackColor = Color.Transparent;
+            universalBackBtn1.Location = new Point(25, 130);
+            universalBackBtn1.Name = "universalBackBtn1";
+            universalBackBtn1.Size = new Size(66, 66);
+            universalBackBtn1.TabIndex = 2;
             // 
             // InteractiveCookingScreen
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(button1);
-            Controls.Add(button7);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Name = "InteractiveCookingScreen";
             Size = new Size(960, 576);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            pictureBox2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -90,7 +97,7 @@
 
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
-        private Button button7;
-        private Button button1;
+        private Button NextBtn;
+        private UniversalBackBtn universalBackBtn1;
     }
 }

@@ -28,44 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReadOnlyCookingScreen));
             pictureBox1 = new PictureBox();
-            button7 = new Button();
+            universalBackBtn1 = new UniversalBackBtn();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            pictureBox1.SuspendLayout();
             SuspendLayout();
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.ReadOnlyMode;
+            pictureBox1.Controls.Add(universalBackBtn1);
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(960, 576);
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
-            // button7
+            // universalBackBtn1
             // 
-            button7.Image = Properties.Resources.Back;
-            button7.Location = new Point(25, 133);
-            button7.Name = "button7";
-            button7.Size = new Size(66, 66);
-            button7.TabIndex = 8;
-            button7.UseVisualStyleBackColor = true;
+            universalBackBtn1.BackColor = Color.Transparent;
+            universalBackBtn1.Location = new Point(25, 132);
+            universalBackBtn1.Name = "universalBackBtn1";
+            universalBackBtn1.Size = new Size(66, 66);
+            universalBackBtn1.TabIndex = 2;
             // 
             // ReadOnlyCookingScreen
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(button7);
             Controls.Add(pictureBox1);
             Name = "ReadOnlyCookingScreen";
             Size = new Size(960, 576);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            pictureBox1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
 
         private PictureBox pictureBox1;
-        private Button button7;
+        private UniversalBackBtn universalBackBtn1;
     }
 }

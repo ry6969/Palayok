@@ -184,4 +184,40 @@
   <data name="LetsGo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LetsGo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ViewAdobo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ViewAdobo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ViewMonggo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ViewMonggo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ViewNilaga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ViewNilaga.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ViewPaksiw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ViewPaksiw.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ViewTinola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ViewTinola.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ViewTorta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ViewTorta.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReadAdobo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ReadAdobo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReadMonggo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ReadMonggo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReadNilaga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ReadNilaga.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReadPaksiw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ReadPaksiw.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReadTinola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ReadTinola.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReadTorta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ReadTorta.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

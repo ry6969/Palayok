@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace Palayok.UI
 {
-    public partial class LoadingScreen : UserControl
+    public partial class LoadingScreen : BaseScreen
     {
         public LoadingScreen()
         {
