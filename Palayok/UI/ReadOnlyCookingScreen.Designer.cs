@@ -28,17 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
+            pictureBox1 = new PictureBox();
+            button7 = new Button();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.ReadOnlyMode;
+            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(960, 576);
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
+            // 
+            // button7
+            // 
+            button7.Image = Properties.Resources.Back;
+            button7.Location = new Point(25, 133);
+            button7.Name = "button7";
+            button7.Size = new Size(66, 66);
+            button7.TabIndex = 8;
+            button7.UseVisualStyleBackColor = true;
             // 
             // ReadOnlyCookingScreen
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(button7);
+            Controls.Add(pictureBox1);
             Name = "ReadOnlyCookingScreen";
-            Size = new Size(1082, 703);
+            Size = new Size(960, 576);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
+
+        private PictureBox pictureBox1;
+        private Button button7;
     }
 }

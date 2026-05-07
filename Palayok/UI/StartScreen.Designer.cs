@@ -28,18 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
+            pictureBox1 = new PictureBox();
+            button1 = new Button();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.Screen;
+            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(960, 576);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Transparent;
+            button1.Image = Properties.Resources.StartButton;
+            button1.Location = new Point(539, 330);
+            button1.Name = "button1";
+            button1.Size = new Size(349, 109);
+            button1.TabIndex = 1;
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // StartScreen
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(button1);
+            Controls.Add(pictureBox1);
             Name = "StartScreen";
-            Size = new Size(1082, 703);
+            Size = new Size(960, 576);
             Load += StartScreen_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
+
+        private PictureBox pictureBox1;
+        private Button button1;
     }
 }

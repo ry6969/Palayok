@@ -14,5 +14,10 @@ namespace Palayok.UI
         {
             InitializeComponent();
         }
+
+        private void ViewIngredients_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

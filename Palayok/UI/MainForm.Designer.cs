@@ -28,23 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Panel = new Panel();
             SuspendLayout();
-            // 
-            // Panel
-            // 
-            Panel.Dock = DockStyle.Fill;
-            Panel.Location = new Point(0, 0);
-            Panel.Name = "Panel";
-            Panel.Size = new Size(1082, 703);
-            Panel.TabIndex = 0;
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1082, 703);
-            Controls.Add(Panel);
+            ClientSize = new Size(959, 574);
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Palayok";
@@ -52,7 +42,5 @@
         }
 
         #endregion
-
-        private Panel Panel;
     }
 }
