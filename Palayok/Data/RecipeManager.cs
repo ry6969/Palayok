@@ -10,10 +10,10 @@ namespace Palayok.Data
         // Helper class to define step configuration
         private class StepConfig
         {
-            public string Button { get; set; }
+            public string? Button { get; set; }
             public int? DurationInSeconds { get; set; } // null = BasicStep, value = TimedStep
             public bool AutoAdvance { get; set; }
-            public string AudioEffect { get; set; } // Optional audio effect (e.g., "Frying", "Cooking")
+            public string? AudioEffect { get; set; } // Optional audio effect (e.g., "Frying", "Cooking")
         }
 
         public static Recipe GetRecipe(string recipeName)
@@ -171,20 +171,20 @@ namespace Palayok.Data
             var bangusSteps = new[]
             {
                 new StepConfig { Button = "LetsGo" },
-                new StepConfig { Button = "Slice" },
+                new StepConfig { Button = "Slice", AudioEffect = "Chopping" }, // 2Paksiw
                 new StepConfig { Button = "Next" },
-                new StepConfig { Button = "Chop" },
+                new StepConfig { Button = "Chop", AudioEffect = "Chopping" }, // 4Paksiw
                 new StepConfig { Button = "Next" },
-                new StepConfig { Button = "Slice" },
+                new StepConfig { Button = "Slice", AudioEffect = "Chopping" }, // 6Paksiw
                 new StepConfig { Button = "Next" },
                 new StepConfig { Button = "Cook" },
                 new StepConfig { Button = "Arrange" },
                 new StepConfig { Button = "Add" },
-                new StepConfig { Button = "Add" },
-                new StepConfig { Button = "Cover" },
-                new StepConfig { Button = "StartTimer" },
-                new StepConfig { Button = "Serve", DurationInSeconds = 1800, AutoAdvance = false },
-                new StepConfig { Button = "Done" }
+                new StepConfig { Button = "Add", AudioEffect = "Pouring" }, // 11Paksiw
+                new StepConfig { Button = "Cover", AudioEffect = "Sprinkling" }, // 12Paksiw
+                new StepConfig { Button = "StartTimer", AudioEffect = "Steaming" }, // 14Paksiw
+                new StepConfig { Button = "Serve", DurationInSeconds = 1800, AutoAdvance = false, AudioEffect = "Timer" },
+                new StepConfig { Button = "Done", AudioEffect = "Cooked" } // 15Paksiw
             };
 
             AddStepsToRecipe(recipe, "Paksiw", bangusSteps);
@@ -199,40 +199,40 @@ namespace Palayok.Data
             {
                 new StepConfig { Button = "LetsGo" },
                 new StepConfig { Button = "LetsGo" },
-                new StepConfig { Button = "Pluck" },
+                new StepConfig { Button = "Pluck", AudioEffect = "Picking" }, // 3Monggo
                 new StepConfig { Button = "Next" },
-                new StepConfig { Button = "Chop" },
+                new StepConfig { Button = "Chop", AudioEffect = "Chopping" }, // 5Monggo
                 new StepConfig { Button = "Next" },
-                new StepConfig { Button = "Chop" },
+                new StepConfig { Button = "Chop", AudioEffect = "Chopping" }, // 7Monggo
                 new StepConfig { Button = "Next" },
-                new StepConfig { Button = "Chop" },
+                new StepConfig { Button = "Chop", AudioEffect = "Chopping" }, // 9Monggo
                 new StepConfig { Button = "Next" },
-                new StepConfig { Button = "Slice" },
+                new StepConfig { Button = "Slice", AudioEffect = "Chopping" }, // 11Monggo
                 new StepConfig { Button = "Next" },
                 new StepConfig { Button = "Cook" },
                 new StepConfig { Button = "LetsGo" },
                 new StepConfig { Button = "Pour" },
+                new StepConfig { Button = "Pour", AudioEffect = "Pouring" }, // 16Monggo
+                new StepConfig { Button = "Cover" },
+                new StepConfig { Button = "StartTimer" },
+                new StepConfig { Button = "Serve", DurationInSeconds = 3600, AutoAdvance = false, AudioEffect = "Timer" }, // 19Monggo
+                new StepConfig { Button = "Add" },
+                new StepConfig { Button = "Add" },
+                new StepConfig { Button = "Saute", AudioEffect = "Frying" }, // 22Monggo
+                new StepConfig { Button = "Add", AudioEffect = "Frying" }, // 23Monggo
+                new StepConfig { Button = "Add", AudioEffect = "Frying" }, // 24Monggo
+                new StepConfig { Button = "Add", AudioEffect = "Frying" }, // 25Monggo
+                new StepConfig { Button = "Cook", AudioEffect = "Frying" }, // 26Monggo
+                new StepConfig { Button = "Pour", AudioEffect = "Frying" }, // 27Monggo
+                new StepConfig { Button = "Next", DurationInSeconds = 300, AutoAdvance = false, AudioEffect = "Timer" }, // 28Monggo
+                new StepConfig { Button = "Next", AudioEffect = "Frying" }, // 29Monggo
                 new StepConfig { Button = "Pour" },
                 new StepConfig { Button = "Cover" },
                 new StepConfig { Button = "StartTimer" },
-                new StepConfig { Button = "Serve", DurationInSeconds = 3600, AutoAdvance = false }, // Step 19: 60 minutes
-                new StepConfig { Button = "Add" },
-                new StepConfig { Button = "Add" },
-                new StepConfig { Button = "Saute" },
-                new StepConfig { Button = "Add" },
-                new StepConfig { Button = "Add" },
-                new StepConfig { Button = "Add" },
-                new StepConfig { Button = "Cook" },
-                new StepConfig { Button = "Pour" },
-                new StepConfig { Button = "Next", DurationInSeconds = 300, AutoAdvance = false }, // Step 28: 5 minutes
-                new StepConfig { Button = "Next" },
-                new StepConfig { Button = "Pour" },
-                new StepConfig { Button = "Cover" },
-                new StepConfig { Button = "StartTimer" },
-                new StepConfig { Button = "Add", DurationInSeconds = 900, AutoAdvance = false }, // Step 33: 15 minutes
-                new StepConfig { Button = "StartTimer" },
-                new StepConfig { Button = "Serve", DurationInSeconds = 60, AutoAdvance = false }, // Step 35: 1 minute
-                new StepConfig { Button = "Done" }
+                new StepConfig { Button = "Add", DurationInSeconds = 900, AutoAdvance = false, AudioEffect = "Timer" }, // 33Monggo
+                new StepConfig { Button = "StartTimer", AudioEffect = "Steaming" }, // 34Monggo
+                new StepConfig { Button = "Serve", DurationInSeconds = 60, AutoAdvance = false, AudioEffect = "Timer" }, // 35Monggo
+                new StepConfig { Button = "Done", AudioEffect = "Cooked" } // 36Monggo
             };
 
             AddStepsToRecipe(recipe, "Monggo", monggoSteps);
@@ -246,38 +246,38 @@ namespace Palayok.Data
             var bakaSteps = new[]
             {
                 new StepConfig { Button = "LetsGo" },
-                new StepConfig { Button = "Cut" },
+                new StepConfig { Button = "Cut", AudioEffect = "Chopping" }, // 2Nilaga
                 new StepConfig { Button = "Next" },
-                new StepConfig { Button = "Cut" },
+                new StepConfig { Button = "Cut", AudioEffect = "Chopping" }, // 4Nilaga
                 new StepConfig { Button = "Next" },
-                new StepConfig { Button = "Pick" },
+                new StepConfig { Button = "Pick", AudioEffect = "Chopping" }, // 6Nilaga
                 new StepConfig { Button = "Smash" },
                 new StepConfig { Button = "Next" },
-                new StepConfig { Button = "Peel" },
-                new StepConfig { Button = "Cut" },
+                new StepConfig { Button = "Peel", AudioEffect = "Peeling2" }, // 9Nilaga
+                new StepConfig { Button = "Cut", AudioEffect = "Chopping" }, // 10Nilaga
                 new StepConfig { Button = "Next" },
-                new StepConfig { Button = "Cut" },
+                new StepConfig { Button = "Cut", AudioEffect = "Chopping" }, // 12Nilaga
                 new StepConfig { Button = "Next" },
-                new StepConfig { Button = "Cut" },
+                new StepConfig { Button = "Cut", AudioEffect = "Chopping" }, // 14Nilaga
                 new StepConfig { Button = "Next" },
                 new StepConfig { Button = "Cook" },
                 new StepConfig { Button = "Next" },
-                new StepConfig { Button = "Pour" },
+                new StepConfig { Button = "Pour", AudioEffect = "Pouring" }, // 18Nilaga
                 new StepConfig { Button = "Add" },
                 new StepConfig { Button = "Add" },
                 new StepConfig { Button = "Cover" },
                 new StepConfig { Button = "StartTimer" },
-                new StepConfig { Button = "Next", DurationInSeconds = 5400, AutoAdvance = false }, // Step 23: 90 minutes
-                new StepConfig { Button = "Add" },
-                new StepConfig { Button = "Add" },
-                new StepConfig { Button = "Cover" },
-                new StepConfig { Button = "StartTimer" },
-                new StepConfig { Button = "Next", DurationInSeconds = 600, AutoAdvance = false }, // Step 28: 10 minutes
-                new StepConfig { Button = "Add" },
-                new StepConfig { Button = "Cover" },
-                new StepConfig { Button = "StartTimer" },
-                new StepConfig { Button = "Serve", DurationInSeconds = 180, AutoAdvance = false }, // Step 32: 3 minutes
-                new StepConfig { Button = "Done" }
+                new StepConfig { Button = "Next", DurationInSeconds = 5400, AutoAdvance = false, AudioEffect = "Timer" }, // 23Nilaga
+                new StepConfig { Button = "Add", AudioEffect = "Steaming" }, // 24Nilaga
+                new StepConfig { Button = "Add", AudioEffect = "Steaming" }, // 25Nilaga
+                new StepConfig { Button = "Cover", AudioEffect = "Steaming" }, // 26Nilaga
+                new StepConfig { Button = "StartTimer", AudioEffect = "Steaming" }, // 27Nilaga
+                new StepConfig { Button = "Next", DurationInSeconds = 600, AutoAdvance = false, AudioEffect = "Timer" }, // 28Nilaga
+                new StepConfig { Button = "Add", AudioEffect = "Steaming" }, // 29Nilaga
+                new StepConfig { Button = "Cover", AudioEffect = "Steaming" }, // 30Nilaga
+                new StepConfig { Button = "StartTimer", AudioEffect = "Steaming" }, // 31Nilaga
+                new StepConfig { Button = "Serve", DurationInSeconds = 180, AutoAdvance = false, AudioEffect = "Timer" }, // 32Nilaga
+                new StepConfig { Button = "Done", AudioEffect = "Cooked" } // 33Nilaga
             };
 
             AddStepsToRecipe(recipe, "Nilaga", bakaSteps);
