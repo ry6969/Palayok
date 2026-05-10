@@ -1,2 +1,1 @@
-# Palayok
-## Trial 
+![Palayok Demo](AReadMe/PalayokRM.gif)
