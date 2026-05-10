@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Palayok.Models
 {
-    internal class TimedStep
+    public class TimedStep : Step
     {
-        public int DurationInSeconds { get; private set; }
-        public bool AutoAdvance { get; private set; }
+        public int DurationInSeconds { get; set; }
+        public bool AutoAdvance { get; set; }
     }
 }

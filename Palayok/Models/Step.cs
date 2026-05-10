@@ -9,6 +9,7 @@ namespace Palayok.Models
     {
         public int StepNumber { get; set; } = 1;
         public string GifPath { get; set; }  // Path to the step GIF
-        public string BtnPath { get; set; } // Path to the button image for this step 
+        public string BtnPath { get; set; } // Path to the button image for this step
+        public string AudioEffect { get; set; } // Audio effect to play (e.g., "Frying", "Cooking", "Chopping")
     }
 }

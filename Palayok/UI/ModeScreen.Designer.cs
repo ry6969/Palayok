@@ -33,6 +33,7 @@
             universalBackBtn1 = new UniversalBackBtn();
             ROMode = new PictureBox();
             RTCMode = new PictureBox();
+            muteBtn1 = new MuteBtn();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             pictureBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)ROMode).BeginInit();
@@ -44,6 +45,7 @@
             pictureBox1.Controls.Add(universalBackBtn1);
             pictureBox1.Controls.Add(ROMode);
             pictureBox1.Controls.Add(RTCMode);
+            pictureBox1.Controls.Add(muteBtn1);
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
@@ -79,6 +81,13 @@
             RTCMode.TabStop = false;
             RTCMode.Click += RTCMode_Click;
             // 
+            // muteBtn1
+            // 
+            muteBtn1.Location = new Point(872, 136);
+            muteBtn1.Name = "muteBtn1";
+            muteBtn1.Size = new Size(66, 60);
+            muteBtn1.TabIndex = 1;
+            // 
             // ModeScreen
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -99,5 +108,6 @@
         private PictureBox RTCMode;
         private PictureBox ROMode;
         private UniversalBackBtn universalBackBtn1;
+        private MuteBtn muteBtn1;
     }
 }

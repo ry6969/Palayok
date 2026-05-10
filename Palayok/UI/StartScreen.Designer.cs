@@ -30,6 +30,7 @@
         {
             pictureBox1 = new PictureBox();
             StartBtn = new Button();
+            muteBtn1 = new MuteBtn();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             pictureBox1.SuspendLayout();
             SuspendLayout();
@@ -37,6 +38,7 @@
             // pictureBox1
             // 
             pictureBox1.Controls.Add(StartBtn);
+            pictureBox1.Controls.Add(muteBtn1);
             pictureBox1.Image = Properties.Resources.Screen;
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
@@ -57,6 +59,13 @@
             StartBtn.UseVisualStyleBackColor = false;
             StartBtn.Click += StartBtn_Click;
             // 
+            // muteBtn1
+            // 
+            muteBtn1.Location = new Point(872, 136);
+            muteBtn1.Name = "muteBtn1";
+            muteBtn1.Size = new Size(66, 60);
+            muteBtn1.TabIndex = 1;
+            // 
             // StartScreen
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -74,5 +83,6 @@
 
         private PictureBox pictureBox1;
         private Button StartBtn;
+        private MuteBtn muteBtn1;
     }
 }

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using Palayok.Audio;
 using Palayok.UI;
 
 namespace Palayok
@@ -21,7 +22,7 @@ namespace Palayok
             InitializeScreenPanel();
 
             // Load the Start Screen
-            currentScreen = "StartScreen";
+            currentScreen = "LoadingScreen";
             LoadScreen(screenFactory.CreateScreen(currentScreen));
         }
 
@@ -51,6 +52,7 @@ namespace Palayok
 
             currentScreen = destination;
             navigationData = data;
+            AudioManager.StopAllSoundEffects();
             LoadScreen(screenFactory.CreateScreen(destination, data), data);
         }
 

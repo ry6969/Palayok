@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using Palayok.Audio;
 
 namespace Palayok.UI
 {
@@ -18,11 +19,13 @@ namespace Palayok.UI
 
         private void RTCMode_Click(object sender, EventArgs e)
         {
+            AudioManager.PlaySoundEffect("Click");
             RaiseNavigate("InteractiveCookingScreen");
         }
 
         private void ROMode_Click(object sender, EventArgs e)
         {
+            AudioManager.PlaySoundEffect("Click");
             RaiseNavigate("ReadOnlyCookingScreen");
         }
     }

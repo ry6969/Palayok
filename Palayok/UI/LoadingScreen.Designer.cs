@@ -49,6 +49,7 @@
             Controls.Add(pictureBox1);
             Name = "LoadingScreen";
             Size = new Size(960, 576);
+            Load += LoadingScreen_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }

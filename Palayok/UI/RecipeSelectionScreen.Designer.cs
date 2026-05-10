@@ -40,6 +40,7 @@
             ChosenLabel = new Label();
             pictureBox1 = new PictureBox();
             universalBackBtn1 = new UniversalBackBtn();
+            muteBtn1 = new MuteBtn();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             pictureBox1.SuspendLayout();
             SuspendLayout();
@@ -142,6 +143,7 @@
             pictureBox1.Controls.Add(Recipe3Btn);
             pictureBox1.Controls.Add(Recipe2Btn);
             pictureBox1.Controls.Add(Recipe1Btn);
+            pictureBox1.Controls.Add(muteBtn1);
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
@@ -157,6 +159,14 @@
             universalBackBtn1.Size = new Size(66, 66);
             universalBackBtn1.TabIndex = 10;
             universalBackBtn1.Load += universalBackBtn1_Load;
+            // 
+            // muteBtn1
+            // 
+            muteBtn1.Location = new Point(872, 136);
+            muteBtn1.Name = "muteBtn1";
+            muteBtn1.Size = new Size(66, 60);
+            muteBtn1.TabIndex = 1;
+            muteBtn1.Load += muteBtn1_Load;
             // 
             // RecipeSelectionScreen
             // 
@@ -182,5 +192,6 @@
         private Label ChosenLabel;
         private PictureBox pictureBox1;
         private UniversalBackBtn universalBackBtn1;
+        private MuteBtn muteBtn1;
     }
 }

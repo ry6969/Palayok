@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using Palayok.Audio;
 
 namespace Palayok.UI
 {
@@ -22,12 +23,12 @@ namespace Palayok.UI
 
         private void AttachButtonHandlers()
         {
-            Recipe1Btn.Click += (s, e) => SelectRecipe("Adobo");
-            Recipe2Btn.Click += (s, e) => SelectRecipe("Tinola");
-            Recipe3Btn.Click += (s, e) => SelectRecipe("Tortang Talong");
-            Recipe4Btn.Click += (s, e) => SelectRecipe("Paksiwan Bangus");
-            Recipe5Btn.Click += (s, e) => SelectRecipe("Pork Monggo");
-            Recipe6Btn.Click += (s, e) => SelectRecipe("Nilagang Baka");
+            Recipe1Btn.Click += (s, e) => { AudioManager.PlaySoundEffect("Click"); SelectRecipe("Adobo"); };
+            Recipe2Btn.Click += (s, e) => { AudioManager.PlaySoundEffect("Click"); SelectRecipe("Tinola"); };
+            Recipe3Btn.Click += (s, e) => { AudioManager.PlaySoundEffect("Click"); SelectRecipe("Tortang Talong"); };
+            Recipe4Btn.Click += (s, e) => { AudioManager.PlaySoundEffect("Click"); SelectRecipe("Paksiwan Bangus"); };
+            Recipe5Btn.Click += (s, e) => { AudioManager.PlaySoundEffect("Click"); SelectRecipe("Pork Monggo"); };
+            Recipe6Btn.Click += (s, e) => { AudioManager.PlaySoundEffect("Click"); SelectRecipe("Nilagang Baka"); };
         }
 
         private void SelectRecipe(string recipeName)
@@ -52,6 +53,7 @@ namespace Palayok.UI
 
         private void ViewIngredientsBtn_Click(object sender, EventArgs e)
         {
+            AudioManager.PlaySoundEffect("Click");
             if (selectedRecipe != null)
             {
                 RaiseNavigate("ViewIngredients", selectedRecipe);
@@ -71,10 +73,16 @@ namespace Palayok.UI
 
         private void CookBtn_Click(object sender, EventArgs e)
         {
+            AudioManager.PlaySoundEffect("Click");
             if (selectedRecipe != null)
             {
                 RaiseNavigate("ModeScreen", selectedRecipe);
             }
+        }
+
+        private void muteBtn1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

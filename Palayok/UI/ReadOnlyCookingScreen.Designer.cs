@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReadOnlyCookingScreen));
             pictureBox1 = new PictureBox();
             universalBackBtn1 = new UniversalBackBtn();
+            muteBtn1 = new MuteBtn();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             pictureBox1.SuspendLayout();
             SuspendLayout();
@@ -38,6 +39,7 @@
             // pictureBox1
             // 
             pictureBox1.Controls.Add(universalBackBtn1);
+            pictureBox1.Controls.Add(muteBtn1);
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
@@ -52,6 +54,13 @@
             universalBackBtn1.Name = "universalBackBtn1";
             universalBackBtn1.Size = new Size(66, 66);
             universalBackBtn1.TabIndex = 2;
+            // 
+            // muteBtn1
+            // 
+            muteBtn1.Location = new Point(24, 200);
+            muteBtn1.Name = "muteBtn1";
+            muteBtn1.Size = new Size(66, 60);
+            muteBtn1.TabIndex = 2;
             // 
             // ReadOnlyCookingScreen
             // 
@@ -69,5 +78,6 @@
 
         private PictureBox pictureBox1;
         private UniversalBackBtn universalBackBtn1;
+        private MuteBtn muteBtn1;
     }
 }

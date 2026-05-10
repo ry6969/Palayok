@@ -28,10 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InteractiveCookingScreen));
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             NextBtn = new Button();
             universalBackBtn1 = new UniversalBackBtn();
+            label1 = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
+            muteBtn1 = new MuteBtn();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             pictureBox2.SuspendLayout();
@@ -49,7 +54,8 @@
             // 
             pictureBox2.Controls.Add(NextBtn);
             pictureBox2.Controls.Add(universalBackBtn1);
-            pictureBox2.Image = Properties.Resources.adobo1;
+            pictureBox2.Controls.Add(label1);
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(0, 0);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(960, 576);
@@ -79,10 +85,32 @@
             universalBackBtn1.Size = new Size(66, 66);
             universalBackBtn1.TabIndex = 2;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Pixelify Sans", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(800, 168);
+            label1.Name = "label1";
+            label1.Size = new Size(96, 37);
+            label1.TabIndex = 2;
+            label1.Text = "label1";
+            // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
+            // 
+            // muteBtn1
+            // 
+            muteBtn1.Location = new Point(872, 480);
+            muteBtn1.Name = "muteBtn1";
+            muteBtn1.Size = new Size(66, 60);
+            muteBtn1.TabIndex = 2;
+            // 
             // InteractiveCookingScreen
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(muteBtn1);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Name = "InteractiveCookingScreen";
@@ -90,6 +118,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             pictureBox2.ResumeLayout(false);
+            pictureBox2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -99,5 +128,8 @@
         private PictureBox pictureBox2;
         private Button NextBtn;
         private UniversalBackBtn universalBackBtn1;
+        private System.Windows.Forms.Timer timer1;
+        private Label label1;
+        private MuteBtn muteBtn1;
     }
 }

@@ -15,8 +15,6 @@ namespace Palayok.UI
                 "RecipeSelectionScreen" => new RecipeSelectionScreen(),
                 "InteractiveCookingScreen" => new InteractiveCookingScreen(),
                 "ReadOnlyCookingScreen" => new ReadOnlyCookingScreen(),
-                "ChecklistScreen" => new ChecklistScreen(),
-                "AchievementScreen" => new AchievementScreen(),
                 "LoadingScreen" => new LoadingScreen(),
                 "ViewIngredients" => new ViewIngredients(),
                 _ => throw new ArgumentException($"Unknown Destination: {destination}")
