@@ -77,21 +77,21 @@ An interactive, step-by-step guided experience that takes you through the cookin
 Palayok's system is built with the four pillars of **Object-Oriented Programming (OOP)** in mind:
 
 ### 1. Encapsulation ༉‧₊˚.
-Each recipe is modeled as a self-contained object — it holds its own data (ingredients, steps, duration, difficulty) and exposes only what the UI needs. Internal cooking logic is hidden away, keeping the interface clean and the data safe from unintended modification.
+Each recipe is modeled as a self-contained object — it holds its own data (ingredients, steps, duration) and exposes only what the UI needs. Internal cooking logic is hidden away, keeping the interface clean and the data safe from unintended modification.
 
 > *Like a palayok itself — the heat, steam, and simmering all happen inside. You just lift the lid when it's ready.*
 
 ---
 
 ### 2. Inheritance ༉‧₊˚.
-A base `Recipe` class defines the shared structure — title, serving size, cooking time, ingredient list, and instructions. Specific dishes like `Adobo`, `Tinola`, or `Nilagang Baka` inherit from this base, extending it with their unique properties without duplicating code.
+A base `Step` class defines the shared structure — title, serving size, cooking time, ingredient list, and instructions. Specific dishes like `Adobo`, `Tinola`, or `Nilagang Baka` inherit from this base, extending it with their unique properties without duplicating code.
 
 > *Every Filipino dish starts from the same foundation: heat, seasoning, and patience. What makes each unique is what it adds on top.*
 
 ---
 
 ### 3. Polymorphism ༉‧₊˚.
-The `CookingMode` interface can be implemented as either `ReadOnlyMode` or `RealTimeMode`. The app calls the same `startCooking()` method regardless of which mode is active — each mode just handles it differently under the hood.
+The `CookingMode` interface can be implemented as either `ReadOnlyMode` or `RealTimeMode`. The app calls the same `startCooking()` method regardless of which mode is active — each mode just handles it differently under the hood. It also uses the `Recipe Aware Screen’s` Set Recipe mechanism, allowing its child components (both interactive and read-only screens) to implement their own version of setting the recipe based on their specific behavior and requirements.
 
 > *Same pan, different technique. You can boil, fry, or simmer — the stove doesn't care. It just provides the heat.*
 
