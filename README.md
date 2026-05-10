@@ -37,7 +37,7 @@ Whether you're a first-timer curious about adobo or a home cook looking to nail 
 ### 🥘 Dish Library
 Browse a curated collection of classic Filipino recipes, each with:
 - Cooking time and serving size
-- Difficulty level (Easy / Medium / Average)
+- Difficulty level (Easy / Average / Difficult)
 - Full ingredients list
 - Step-by-step instructions
 
