@@ -7,7 +7,7 @@
 
 ---
 
-## What is Palayok?
+## What is Palayok? ⌯⌲
 
 **Palayok** (Filipino for *clay pot*) is a mobile cooking guide app designed to bring the warmth and soul of Filipino home cooking to your fingertips. Guided by **Sandok** — your friendly in-app kitchen companion — Palayok walks you through authentic Filipino dishes with clarity, care, and a little bit of *kuya/ate* energy.
 
@@ -15,7 +15,7 @@ Whether you're a first-timer curious about adobo or a home cook looking to nail 
 
 ---
 
-## Meet Sandok
+## Meet Sandok ₊⊹
 
 <table>
   <tr>
