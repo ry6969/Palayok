@@ -86,7 +86,7 @@ namespace Palayok.Data
                 new StepConfig { Button = "Cook", AudioEffect = "Frying" },
                 new StepConfig { Button = "Cook", AudioEffect = "Frying" },
                 new StepConfig { Button = "StartTimer", AudioEffect = "Sprinkling" }, // 14Adobo
-                new StepConfig { Button = "Done", DurationInSeconds = 300, AutoAdvance = false, AudioEffect = "Timer" },
+                new StepConfig { Button = "Done", DurationInSeconds = 5, AutoAdvance = false, AudioEffect = "Timer" },
                 new StepConfig { Button = "Cook", AudioEffect = "Pouring" }, // 16Adobo
                 new StepConfig { Button = "Cook", AudioEffect = "Pouring" }, // 17Adobo
                 new StepConfig { Button = "StartTimer", AudioEffect = "Pouring" }, // 18Adobo

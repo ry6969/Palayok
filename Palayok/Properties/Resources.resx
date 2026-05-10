@@ -178,9 +178,6 @@
   <data name="ReadOnly" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ReadOnly.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="View" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\View.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="LetsGo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LetsGo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -225,5 +222,8 @@
   </data>
   <data name="Unmute" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Buttons\Unmute.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ViewBT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buttons\ViewBT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

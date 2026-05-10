@@ -19,6 +19,7 @@ namespace Palayok.UI
             AttachButtonHandlers();
             universalBackBtn1.BackClicked += (s, e) => OnBackClicked();
 
+
         }
 
         private void AttachButtonHandlers()

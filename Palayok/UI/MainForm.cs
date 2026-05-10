@@ -52,7 +52,6 @@ namespace Palayok
 
             currentScreen = destination;
             navigationData = data;
-            AudioManager.StopAllSoundEffects();
             LoadScreen(screenFactory.CreateScreen(destination, data), data);
         }
 
@@ -70,6 +69,7 @@ namespace Palayok
 
         public void LoadScreen(UserControl screen, object data = null)
         {
+            AudioManager.StopAllSoundEffects();
             screenPanel.Controls.Clear();
             screen.Dock = DockStyle.Fill;
 

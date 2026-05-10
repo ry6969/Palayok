@@ -343,9 +343,9 @@ namespace Palayok.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap View {
+        internal static System.Drawing.Bitmap ViewAdobo {
             get {
-                object obj = ResourceManager.GetObject("View", resourceCulture);
+                object obj = ResourceManager.GetObject("ViewAdobo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,9 +353,9 @@ namespace Palayok.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ViewAdobo {
+        internal static System.Drawing.Bitmap ViewBT {
             get {
-                object obj = ResourceManager.GetObject("ViewAdobo", resourceCulture);
+                object obj = ResourceManager.GetObject("ViewBT", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

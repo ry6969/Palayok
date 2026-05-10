@@ -47,7 +47,9 @@
             // 
             // Recipe1Btn
             // 
-            Recipe1Btn.Image = Properties.Resources.Adobo;
+            Recipe1Btn.FlatAppearance.BorderSize = 0;
+            Recipe1Btn.FlatStyle = FlatStyle.Flat;
+            Recipe1Btn.Image = (Image)resources.GetObject("Recipe1Btn.Image");
             Recipe1Btn.Location = new Point(121, 173);
             Recipe1Btn.Name = "Recipe1Btn";
             Recipe1Btn.Size = new Size(198, 98);
@@ -56,8 +58,10 @@
             // 
             // Recipe2Btn
             // 
-            Recipe2Btn.Image = Properties.Resources.Tinola;
-            Recipe2Btn.Location = new Point(375, 173);
+            Recipe2Btn.FlatAppearance.BorderSize = 0;
+            Recipe2Btn.FlatStyle = FlatStyle.Flat;
+            Recipe2Btn.Image = (Image)resources.GetObject("Recipe2Btn.Image");
+            Recipe2Btn.Location = new Point(383, 173);
             Recipe2Btn.Name = "Recipe2Btn";
             Recipe2Btn.Size = new Size(203, 98);
             Recipe2Btn.TabIndex = 2;
@@ -66,7 +70,8 @@
             // Recipe3Btn
             // 
             Recipe3Btn.FlatAppearance.BorderSize = 0;
-            Recipe3Btn.Image = Properties.Resources.TortangTalong;
+            Recipe3Btn.FlatStyle = FlatStyle.Flat;
+            Recipe3Btn.Image = (Image)resources.GetObject("Recipe3Btn.Image");
             Recipe3Btn.Location = new Point(641, 173);
             Recipe3Btn.Name = "Recipe3Btn";
             Recipe3Btn.Size = new Size(198, 98);
@@ -75,8 +80,10 @@
             // 
             // Recipe4Btn
             // 
-            Recipe4Btn.Image = Properties.Resources.PaksiwnaBangus;
-            Recipe4Btn.Location = new Point(116, 309);
+            Recipe4Btn.FlatAppearance.BorderSize = 0;
+            Recipe4Btn.FlatStyle = FlatStyle.Flat;
+            Recipe4Btn.Image = (Image)resources.GetObject("Recipe4Btn.Image");
+            Recipe4Btn.Location = new Point(124, 309);
             Recipe4Btn.Name = "Recipe4Btn";
             Recipe4Btn.Size = new Size(203, 98);
             Recipe4Btn.TabIndex = 4;
@@ -84,8 +91,10 @@
             // 
             // Recipe5Btn
             // 
-            Recipe5Btn.Image = Properties.Resources.PorkMonggo;
-            Recipe5Btn.Location = new Point(375, 309);
+            Recipe5Btn.FlatAppearance.BorderSize = 0;
+            Recipe5Btn.FlatStyle = FlatStyle.Flat;
+            Recipe5Btn.Image = (Image)resources.GetObject("Recipe5Btn.Image");
+            Recipe5Btn.Location = new Point(383, 309);
             Recipe5Btn.Name = "Recipe5Btn";
             Recipe5Btn.Size = new Size(203, 98);
             Recipe5Btn.TabIndex = 5;
@@ -93,8 +102,10 @@
             // 
             // Recipe6Btn
             // 
-            Recipe6Btn.Image = Properties.Resources.NilagangBaka;
-            Recipe6Btn.Location = new Point(636, 309);
+            Recipe6Btn.FlatAppearance.BorderSize = 0;
+            Recipe6Btn.FlatStyle = FlatStyle.Flat;
+            Recipe6Btn.Image = (Image)resources.GetObject("Recipe6Btn.Image");
+            Recipe6Btn.Location = new Point(644, 309);
             Recipe6Btn.Name = "Recipe6Btn";
             Recipe6Btn.Size = new Size(203, 98);
             Recipe6Btn.TabIndex = 6;
@@ -102,7 +113,9 @@
             // 
             // ViewIngredientsBtn
             // 
-            ViewIngredientsBtn.Image = Properties.Resources.View;
+            ViewIngredientsBtn.FlatAppearance.BorderSize = 0;
+            ViewIngredientsBtn.FlatStyle = FlatStyle.Flat;
+            ViewIngredientsBtn.Image = Properties.Resources.ViewBT;
             ViewIngredientsBtn.Location = new Point(285, 459);
             ViewIngredientsBtn.Name = "ViewIngredientsBtn";
             ViewIngredientsBtn.Size = new Size(148, 71);
@@ -112,7 +125,9 @@
             // 
             // CookBtn
             // 
-            CookBtn.Image = Properties.Resources.Cook;
+            CookBtn.FlatAppearance.BorderSize = 0;
+            CookBtn.FlatStyle = FlatStyle.Flat;
+            CookBtn.Image = (Image)resources.GetObject("CookBtn.Image");
             CookBtn.Location = new Point(499, 459);
             CookBtn.Name = "CookBtn";
             CookBtn.Size = new Size(148, 71);
