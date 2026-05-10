@@ -1,6 +1,6 @@
 <h1 align="center">ੈ✩‧₊˚Palayok - Your Filipino Cooking Companion‧₊˚✩ ੈ</h1>
 <p align="center">
-  <img src="AReadMe/PalayokRM.gif" width="800">
+  <img src="AReadMe/PalayokRM.gif">
 </p>
 
 > *"Tara, luto!"* — Come, let's cook!
