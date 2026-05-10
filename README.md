@@ -224,4 +224,4 @@ This project was developed for academic purposes under **CS 222 — Advance Obje
 
 ---
 
-<p align="center"><em>Made with rice and a lot of heart.</em> ❤️</p>
+<p align="center"><em>Made with heart and a bowl of rice.</em> ❤️</p>
