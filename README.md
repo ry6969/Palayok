@@ -104,7 +104,24 @@ Users interact with simple screens: pick a dish, choose a mode, follow the steps
 
 ---
 
-## 🗂️ App Structure (UI Flow)
+## 📱 App Structure (UI Flow)
+
+```
+Loading Screen
+    └── Welcome / Onboarding (Sandok introduces himself)
+            └── Meal Selection Screen
+                    ├── Recipe Detail View
+                    │       └── Ingredients Checklist
+                    └── Choose Cooking Mode
+                            ├── Read-Only Mode
+                            │       └── Full Instructions View
+                            └── Real-Time Mode
+                                    ├── Prep Phase (Chop / Prepare)
+                                    │       └── Step confirmations with "Next"
+                                    └── Cooking Phase
+                                            └── Step-by-step with Timers → Done
+```
+
 ---
 ## 🗂️ Folder Structure
 ---
@@ -115,10 +132,6 @@ Users interact with simple screens: pick a dish, choose a mode, follow the steps
 The goal is simple: make Filipino cooking accessible, approachable, and joyful — for _anyone, anywhere_.
 
 ---
-
-*Made with rice and a lot of heart.*❤️
-
-
 <h1 align="center">「 ✦ Contributors ✦ 」</h1>
 
 <div align="center">
@@ -174,3 +187,7 @@ The goal is simple: make Filipino cooking accessible, approachable, and joyful �
 </table>
 
 </div>
+
+---
+
+<p align="center"><em>Made with rice and a lot of heart.</em> ❤️</p>
