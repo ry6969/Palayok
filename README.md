@@ -16,11 +16,18 @@ Whether you're a first-timer curious about adobo or a home cook looking to nail 
 ---
 ## 👨‍🍳 Meet Sandok
 
-**Sandok** (Filipino for *ladle*) is your in-app guide — warm, encouraging, and always ready with the next instruction. He greets you on loading, walks you through prep, and cheers you on through every step.
-
-> *"Onions chopped, now move to our next step."*
-> *"Garlic ready, now move to our next step."*
-> *"Nice one! Now let's wait for the chicken to be golden brown."*
+<table>
+  <tr>
+    <td><img src="AReadMe/sandok.gif" width="200"></td>
+    <td>
+      <strong>Sandok</strong> (Filipino for <em>ladle</em>) is your in-app guide — warm, encouraging, and always ready with the next instruction. He greets you on loading, walks you through prep, and cheers you on through every step.
+      <br><br>
+      <em>"Onions chopped, now move to our next step."</em><br>
+      <em>"Garlic ready, now move to our next step."</em><br>
+      <em>"Nice one! Now let's wait for the chicken to be golden brown."</em>
+    </td>
+  </tr>
+</table>
 ---
 ## ✨ Features
 
