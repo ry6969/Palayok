@@ -39,14 +39,19 @@ Browse a curated collection of classic Filipino recipes, each with:
 - Step-by-step instructions
 
 **Current Menu:**
+
+<div align="center">
+
 | Dish | Image | Time | Difficulty | Serves |
-|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|
 | Adobo | <img src="AReadMe/Adobo.png" width="80"> | 45 mins | Easy | 4 |
 | Tinola | <img src="AReadMe/Tinola.png" width="80"> | 45 mins | Medium | 4 |
 | Tortang Talong | <img src="AReadMe/Torta.png" width="80"> | 25 mins | Easy | 3 |
 | Paksiw na Bangus | <img src="AReadMe/Paksiw.png" width="80"> | 45 mins | Medium | 4 |
 | Pork Monggo | <img src="AReadMe/Monggo.png" width="80"> | 90 mins | Average | 4 |
 | Nilagang Baka | <img src="AReadMe/Nilaga.png" width="80"> | 103 mins | Easy | 4 |
+
+</div>
 
 ---
 
