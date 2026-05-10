@@ -7,7 +7,7 @@
 
 ---
 
-## 🍲 What is Palayok?
+## What is Palayok?
 
 **Palayok** (Filipino for *clay pot*) is a mobile cooking guide app designed to bring the warmth and soul of Filipino home cooking to your fingertips. Guided by **Sandok** — your friendly in-app kitchen companion — Palayok walks you through authentic Filipino dishes with clarity, care, and a little bit of *kuya/ate* energy.
 
@@ -15,7 +15,7 @@ Whether you're a first-timer curious about adobo or a home cook looking to nail 
 
 ---
 
-## 👨‍🍳 Meet Sandok
+## Meet Sandok
 
 <table>
   <tr>
@@ -32,7 +32,7 @@ Whether you're a first-timer curious about adobo or a home cook looking to nail 
 
 ---
 
-## ✨ Features
+## ✎ Features
 
 ### 🥘 Dish Library
 Browse a curated collection of classic Filipino recipes, each with:
@@ -58,7 +58,7 @@ Browse a curated collection of classic Filipino recipes, each with:
 
 ---
 
-### 🎛️ Two Cooking Modes
+### Two Cooking Modes
 
 #### 📖 Read-Only Mode
 A clean, distraction-free view of the full recipe — ingredients and numbered steps all in one place. Perfect for experienced cooks who just need a quick reference.
@@ -72,32 +72,32 @@ An interactive, step-by-step guided experience that takes you through the cookin
 
 ---
 
-## 🧑‍💻 Object-Oriented Design Principles
+## 𖤐 Object-Oriented Design Principles
 
 Palayok's system is built with the four pillars of **Object-Oriented Programming (OOP)** in mind:
 
-### 1. 🔒 Encapsulation
+### 1. Encapsulation ༉‧₊˚.
 Each recipe is modeled as a self-contained object — it holds its own data (ingredients, steps, duration, difficulty) and exposes only what the UI needs. Internal cooking logic is hidden away, keeping the interface clean and the data safe from unintended modification.
 
 > *Like a palayok itself — the heat, steam, and simmering all happen inside. You just lift the lid when it's ready.*
 
 ---
 
-### 2. 🧬 Inheritance
+### 2. Inheritance ༉‧₊˚.
 A base `Recipe` class defines the shared structure — title, serving size, cooking time, ingredient list, and instructions. Specific dishes like `Adobo`, `Tinola`, or `Nilagang Baka` inherit from this base, extending it with their unique properties without duplicating code.
 
 > *Every Filipino dish starts from the same foundation: heat, seasoning, and patience. What makes each unique is what it adds on top.*
 
 ---
 
-### 3. 🎭 Polymorphism
+### 3. Polymorphism ༉‧₊˚.
 The `CookingMode` interface can be implemented as either `ReadOnlyMode` or `RealTimeMode`. The app calls the same `startCooking()` method regardless of which mode is active — each mode just handles it differently under the hood.
 
 > *Same pan, different technique. You can boil, fry, or simmer — the stove doesn't care. It just provides the heat.*
 
 ---
 
-### 4. 🫙 Abstraction
+### 4. Abstraction ༉‧₊˚.
 Users interact with simple screens: pick a dish, choose a mode, follow the steps. The complexity behind managing timers, tracking progress, and transitioning between prep and cooking phases is completely abstracted away.
 
 > *You don't need to know how the clay pot was fired to cook in it. You just need to know what goes inside.*
@@ -125,11 +125,26 @@ Loading Screen
 ---
 ## 🗂️ Folder Structure
 ---
-## 🌿 Philosophy
+## 🌿 Philosophy 
 
 **Palayok** isn't just a recipe app — it's a love letter to Filipino home cooking. Every dish in the library carries stories: the garlic sautéed until golden, the vinegar that never gets stirred right away, the malunggay leaves added last so they stay bright and fresh.
 
 The goal is simple: make Filipino cooking accessible, approachable, and joyful — for _anyone, anywhere_.
+
+---
+## ⋆˚౨ৎ ⋆.˚Acknowledgment⋆˚౨ৎ ⋆.˚
+
+We sincerely express our gratitude to our instructor for the guidance, support, and insights shared throughout this project.  Their expertise greatly helped deepen our understanding of Object-Oriented Programming.
+
+We also thank our classmates and peers for their cooperation, feedback, and encouragement, which contributed to improving the overall quality of this work.
+
+This project reflects a collaborative effort, and we appreciate everyone who contributed to its completion.
+
+---
+
+## 🕸 Disclaimer
+
+This project was developed for academic purposes under **CS 222 — Advance Object-Oriented Programming**.  It is intended only as a reference. Please avoid copying or submitting it as your own work.
 
 ---
 <h1 align="center">「 ✦ Contributors ✦ 」</h1>
