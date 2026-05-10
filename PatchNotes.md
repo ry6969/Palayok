@@ -1,6 +1,6 @@
 # PATCH NOTE v1.3
 
-## Bugs Found at Previous Patch v1.1:
+## Bugs Found at Previous Patch v1.2:
 - TimerEnd sound effect still triggers after moving to another screen
 
 ## Bug Fixes
