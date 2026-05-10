@@ -58,7 +58,7 @@ Browse a curated collection of classic Filipino recipes, each with:
 
 ---
 
-### Two Cooking Modes
+### Two Cooking Modes ⟡ ݁₊ .
 
 #### 📖 Read-Only Mode
 A clean, distraction-free view of the full recipe — ingredients and numbered steps all in one place. Perfect for experienced cooks who just need a quick reference.
@@ -72,7 +72,7 @@ An interactive, step-by-step guided experience that takes you through the cookin
 
 ---
 
-## 𖤐 Object-Oriented Design Principles
+## ˖᯽ Object-Oriented Design Principles
 
 Palayok's system is built with the four pillars of **Object-Oriented Programming (OOP)** in mind:
 
@@ -124,6 +124,25 @@ Loading Screen
 
 ---
 ## 🗂️ Folder Structure
+```
+Palayok/
+├── AReadMe/
+├── Palayok/
+│   ├── Audio/
+│   ├── Data/
+│   ├── Models/
+│   ├── Properties/
+│   ├── Resources/
+│   ├── UI/
+│   ├── Palayok.csproj
+│   └── Program.cs
+├── .gitattributes
+├── .gitignore
+├── Palayok.slnx
+├── PatchNotes.md
+└── README.md
+```
+
 ---
 ## 🌿 Philosophy 
 
@@ -132,7 +151,7 @@ Loading Screen
 The goal is simple: make Filipino cooking accessible, approachable, and joyful — for _anyone, anywhere_.
 
 ---
-## ⋆˚౨ৎ ⋆.˚Acknowledgment⋆˚౨ৎ ⋆.˚
+## Acknowledgment⋆˚౨ৎ ⋆.˚
 
 We sincerely express our gratitude to our instructor for the guidance, support, and insights shared throughout this project.  Their expertise greatly helped deepen our understanding of Object-Oriented Programming.
 
