@@ -117,3 +117,60 @@ The goal is simple: make Filipino cooking accessible, approachable, and joyful �
 ---
 
 *Made with rice and a lot of heart.*❤️
+
+
+<h1 align="center">「 ✦ Contributors ✦ 」</h1>
+
+<div align="center">
+
+<table>
+<tr>
+
+<!-- Member 1 -->
+<td align="center" width="250">
+
+
+<a href="https://github.com/ry6969" target="_blank">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
+       width="40" 
+       alt="GitHub Logo">
+</a>
+
+<br>
+<strong>@ry6969-cs</strong>
+
+</td>
+
+<!-- Member 2 -->
+<td align="center" width="250">
+
+<a href="https://github.com/Laurenzedc" target="_blank">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
+       width="40" 
+       alt="GitHub Logo">
+</a>
+
+<br>
+<strong>@Laurenzedc</strong>
+
+</td>
+
+<!-- Member 3 -->
+<td align="center" width="250">
+
+
+<a href="https://github.com/Haidonuts" target="_blank">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
+       width="40" 
+       alt="GitHub Logo">
+</a>
+
+<br>
+<strong>@Haidonuts</strong>
+
+</td>
+
+</tr>
+</table>
+
+</div>
