@@ -84,7 +84,7 @@ Each recipe is modeled as a self-contained object — it holds its own data (ing
 ---
 
 ### 2. Inheritance ༉‧₊˚.
-A base `Step` class defines the shared structure — title, serving size, cooking time, ingredient list, and instructions. Specific dishes like `Adobo`, `Tinola`, or `Nilagang Baka` inherit from this base, extending it with their unique properties without duplicating code.
+The inheritance is implemented in the '-`Step` class, which serves as the base structure for steps in the system. It defines the shared foundation that is extended by its child classes, `BasicStep` and `TimedStep`. Each child class inherits the common behavior from `Step` while providing its own specialized implementation, allowing different step types to function without duplicating code.
 
 > *Every Filipino dish starts from the same foundation: heat, seasoning, and patience. What makes each unique is what it adds on top.*
 
