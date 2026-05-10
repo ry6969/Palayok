@@ -137,7 +137,7 @@ The goal is simple: make Filipino cooking accessible, approachable, and joyful â
 </a>
 
 <br>
-<strong>@ry6969-cs</strong>
+<strong>@ry6969</strong>
 
 </td>
 
