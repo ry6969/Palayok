@@ -18,7 +18,7 @@ Whether you're a first-timer curious about adobo or a home cook looking to nail 
 
 <table>
   <tr>
-    <td><img src="AReadMe/sandok.gif" width="200"></td>
+    <td><img src="AReadMe/Sandok.gif" width="200"></td>
     <td>
       <strong>Sandok</strong> (Filipino for <em>ladle</em>) is your in-app guide — warm, encouraging, and always ready with the next instruction. He greets you on loading, walks you through prep, and cheers you on through every step.
       <br><br>
@@ -41,12 +41,12 @@ Browse a curated collection of classic Filipino recipes, each with:
 **Current Menu:**
 | Dish | Image | Time | Difficulty | Serves |
 |---|---|---|---|---|
-| Adobo | <img src="AReadMe/adobo.png" width="80"> | 45 mins | Easy | 4 |
-| Tinola | <img src="AReadMe/tinola.png" width="80"> | 45 mins | Medium | 4 |
-| Tortang Talong | <img src="AReadMe/tortang_talong.png" width="80"> | 25 mins | Easy | 3 |
-| Paksiw na Bangus | <img src="AReadMe/paksiw_na_bangus.png" width="80"> | 45 mins | Medium | 4 |
-| Pork Monggo | <img src="AReadMe/pork_monggo.png" width="80"> | 90 mins | Average | 4 |
-| Nilagang Baka | <img src="AReadMe/nilagang_baka.png" width="80"> | 103 mins | Easy | 4 |
+| Adobo | <img src="AReadMe/Adobo.png" width="80"> | 45 mins | Easy | 4 |
+| Tinola | <img src="AReadMe/Tinola.png" width="80"> | 45 mins | Medium | 4 |
+| Tortang Talong | <img src="AReadMe/Torta.png" width="80"> | 25 mins | Easy | 3 |
+| Paksiw na Bangus | <img src="AReadMe/Paksiw.png" width="80"> | 45 mins | Medium | 4 |
+| Pork Monggo | <img src="AReadMe/Monggo.png" width="80"> | 90 mins | Average | 4 |
+| Nilagang Baka | <img src="AReadMe/Nilaga.png" width="80"> | 103 mins | Easy | 4 |
 
 ---
 
