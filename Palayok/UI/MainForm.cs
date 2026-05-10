@@ -70,6 +70,12 @@ namespace Palayok
         public void LoadScreen(UserControl screen, object data = null)
         {
             AudioManager.StopAllSoundEffects();
+
+            if (AudioManager.IsLoopingSfxPlaying)
+            {
+                AudioManager.StopLoopingSoundEffect();
+            }
+
             screenPanel.Controls.Clear();
             screen.Dock = DockStyle.Fill;
 
@@ -86,6 +92,7 @@ namespace Palayok
             }
 
             screenPanel.Controls.Add(screen);
+            System.Diagnostics.Debug.WriteLine("Screen Loaded");
         }
 
         private void Panel_Paint(object sender, PaintEventArgs e)

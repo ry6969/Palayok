@@ -113,6 +113,13 @@ namespace Palayok.UI
 
         private void NextStep()
         {
+            if (AudioManager.IsLoopingSfxPlaying)
+            {
+                AudioManager.StopLoopingSoundEffect();
+            }
+
+            isTimerRinging = false;
+
             if (currentStepIndex < currentRecipeData.Steps.Count - 1)
             {
                 DisplayStep(currentStepIndex + 1);
@@ -157,16 +164,7 @@ namespace Palayok.UI
                     isTimerRinging = true;
 
                     AudioManager.StopAllSoundEffects();
-                    AudioManager.PlaySoundEffect("TimerEnd");
-
-                    // 🔁 re-trigger loop manually every 5 seconds
-                    System.Windows.Forms.Timer ringTimer = new System.Windows.Forms.Timer();
-                    ringTimer.Interval = 5000; // match your sound length
-                    ringTimer.Tick += (s, ev) =>
-                    {
-                        AudioManager.PlaySoundEffect("TimerEnd");
-                    };
-                    ringTimer.Start();
+                    AudioManager.PlayLoopingSoundEffect("TimerEnd");
                 }
 
                 if (currentStep is TimedStep timedStep && timedStep.AutoAdvance)

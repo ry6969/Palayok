@@ -1,11 +1,7 @@
-# PATCH NOTE v1.2
+# PATCH NOTE v1.3
 
 ## Bugs Found at Previous Patch v1.1:
-- All sound effects still plays after pressing Universal Back Button
-
+- TimerEnd sound effect still triggers after moving to another screen
 
 ## Bug Fixes
-- Moved the *AudioManager.StopAllSoundEffects()* function to the LoadScreen() function. [Previously at HandleNavigation]. Now the *AudioManager.StopAllSoundEffects()* gets triggered every time a new screen is loaded.
-
-## Optimizations
-- Changed the Image assets at *RecipeSelectionScreen* to enable transparent backgrounds.
+- Added *PlayLoopingSoundEffect()* and *StopLoopingSoundEffect()* to handle the looping TimerEnd and ensure to only stop if the audio is playing to avoid pre-emptive stopping

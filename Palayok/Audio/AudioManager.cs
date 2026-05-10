@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using NAudio.Wave;
 using System.Text;
-using NAudio.Wave;
 
 
 namespace Palayok.Audio
@@ -20,6 +19,8 @@ namespace Palayok.Audio
         public override WaveFormat WaveFormat => sourceStream.WaveFormat;
 
         public override long Length => sourceStream.Length;
+
+
 
         public override long Position
         {
@@ -58,6 +59,12 @@ namespace Palayok.Audio
         private static AudioFileReader currentMusicReader;
 
         private static WaveStream currentMusicStream;
+
+        //Looping SFX
+        private static WaveOutEvent currentLoopingSfxOutput;
+        private static AudioFileReader currentLoopingSfxReader;
+        private static WaveStream currentLoopingSfxStream;
+        public static bool IsLoopingSfxPlaying => currentLoopingSfxOutput != null;
 
         // Event to report loading progress
         public static event Action<string> OnLoadingProgress;
@@ -199,6 +206,51 @@ namespace Palayok.Audio
             };
         }
 
+        public static void PlayLoopingSoundEffect(string effectName)
+        {
+            if (!soundEffects.ContainsKey(effectName))
+                return;
+
+            StopLoopingSoundEffect();
+
+            currentLoopingSfxReader = new AudioFileReader(soundEffects[effectName]);
+            //currentLoopingSfxReader.Volume = isMuted ? 0f : sfxVolume;
+
+            currentLoopingSfxStream = new LoopStream(currentLoopingSfxReader);
+
+            currentLoopingSfxOutput = new WaveOutEvent();
+            currentLoopingSfxOutput.Init(currentLoopingSfxStream);
+
+            currentLoopingSfxOutput.Play();
+
+            System.Diagnostics.Debug.WriteLine($"Looping SFX started: {effectName}");
+        }
+
+        public static void StopLoopingSoundEffect()
+        {
+            if (currentLoopingSfxOutput != null)
+            {
+                currentLoopingSfxOutput.Stop();
+                currentLoopingSfxOutput.Dispose();
+                currentLoopingSfxOutput = null;
+            }
+
+            if (currentLoopingSfxStream != null)
+            {
+                currentLoopingSfxStream.Dispose();
+                currentLoopingSfxStream = null;
+            }
+
+            if (currentLoopingSfxReader != null)
+            {
+                currentLoopingSfxReader.Dispose();
+                currentLoopingSfxReader = null;
+            }
+
+            System.Diagnostics.Debug.WriteLine("Looping SFX stopped");
+        }
+
+
         /// <summary>
         /// Stop background music
         /// </summary>
@@ -234,6 +286,8 @@ namespace Palayok.Audio
 
             activeSfx.Clear();
         }
+
+
 
         public static void ToggleMute()
         {
