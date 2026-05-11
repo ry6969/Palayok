@@ -157,6 +157,7 @@ Palayok/
 **Requirements:**
 - Windows OS
 - [.NET SDK](https://dotnet.microsoft.com/en-us/download) installed
+- NAudio
 
 **Steps:**
 1. Clone the repository
