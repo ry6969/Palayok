@@ -140,12 +140,5 @@
       <FileName>Audio\AudioManager.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Palayok.UI.FontManager" Collapsed="true">
-    <Position X="18" Y="14" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAABBAAAAQAAAAAQAAAAAAAAAAABBIA=</HashCode>
-      <FileName>UI\FontManager.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

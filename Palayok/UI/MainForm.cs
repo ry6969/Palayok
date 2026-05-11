@@ -25,8 +25,6 @@ namespace Palayok
             currentScreen = "LoadingScreen";
             LoadScreen(screenFactory.CreateScreen(currentScreen));
 
-            // Apply embedded fonts to all controls
-            FontManager.ApplyPixelifyFontToAllControls(this);
         }
 
         private void InitializeScreenPanel()
@@ -95,9 +93,6 @@ namespace Palayok
             }
 
             screenPanel.Controls.Add(screen);
-
-            // Apply embedded fonts to the new screen
-            FontManager.ApplyPixelifyFontToAllControls(screen);
 
             System.Diagnostics.Debug.WriteLine("Screen Loaded");
         }

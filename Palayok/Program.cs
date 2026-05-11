@@ -12,9 +12,6 @@ namespace Palayok
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-            // Load embedded fonts
-            UI.FontManager.LoadEmbeddedFonts();
-
             Application.Run(new MainForm());
         }
     }
