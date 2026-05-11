@@ -95,6 +95,9 @@ The `CookingMode` interface can be implemented as either `ReadOnlyMode` or `Real
 
 > *Same pan, different technique. You can boil, fry, or simmer — the stove doesn't care. It just provides the heat.*
 
+3. Polymorphism ༉‧₊˚.
+The RecipeAwareScreen base class serves as the polymorphic foundation, with child screens (InteractiveCookingScreen and ReadOnlyCookingScreen) inheriting and overriding the SetRecipe() method to implement their own specific behavior. When ModeScreen navigates to either screen, the same SetRecipe() call is made — but each screen handles recipe initialization differently based on its mode requirements. InteractiveCookingScreen prepares step-by-step interactive elements, while ReadOnlyCookingScreen displays the complete recipe view. The app doesn't need to know which child class is active; it simply calls the base method and each implementation takes care of itself.
+
 ---
 
 ### 4. Abstraction ༉‧₊˚.
