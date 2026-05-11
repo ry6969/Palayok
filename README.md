@@ -104,6 +104,14 @@ Users interact with simple screens: pick a dish, choose a mode, follow the steps
 
 ---
 
+## 📐 UML Diagram
+
+<p align="center">
+  <img src="AReadMe/UML.png" width="800">
+</p>
+
+---
+
 ## 📱 App Structure (UI Flow)
 
 ```
@@ -144,6 +152,19 @@ Palayok/
 ```
 
 ---
+## 🚀 How to Run the Application
+
+**Requirements:**
+- Windows OS
+- [.NET SDK](https://dotnet.microsoft.com/en-us/download) installed
+
+**Steps:**
+1. Clone the repository
+2. Open `Palayok.slnx` in **Visual Studio**
+3. Build the solution — `Ctrl + Shift + B`
+4. Run the application — `F5` or click **Start**
+
+---
 ## 🌿 Philosophy 
 
 **Palayok** isn't just a recipe app — it's a love letter to Filipino home cooking. Every dish in the library carries stories: the garlic sautéed until golden, the vinegar that never gets stirred right away, the malunggay leaves added last so they stay bright and fresh.
@@ -167,61 +188,42 @@ This project was developed for academic purposes under **CS 222 — Advance Obje
 
 ---
 <h1 align="center">「 ✦ Contributors ✦ 」</h1>
-
 <div align="center">
-
 <table>
 <tr>
-
-<!-- Member 1 -->
 <td align="center" width="250">
-
-
 <a href="https://github.com/ry6969" target="_blank">
   <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
        width="40" 
        alt="GitHub Logo">
 </a>
-
 <br>
-<strong>@ry6969</strong>
-
+<strong>Aldred De Castro</strong><br>
+<sub>@ry6969</sub>
 </td>
-
-<!-- Member 2 -->
 <td align="center" width="250">
-
 <a href="https://github.com/Laurenzedc" target="_blank">
   <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
        width="40" 
        alt="GitHub Logo">
 </a>
-
 <br>
-<strong>@Laurenzedc</strong>
-
+<strong>Harry Canalita</strong><br>
+<sub>@Laurenzedc</sub>
 </td>
-
-<!-- Member 3 -->
 <td align="center" width="250">
-
-
 <a href="https://github.com/Haidonuts" target="_blank">
   <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
        width="40" 
        alt="GitHub Logo">
 </a>
-
 <br>
-<strong>@Haidonuts</strong>
-
+<strong>Haidie Fanoga</strong><br>
+<sub>@Haidonuts</sub>
 </td>
-
 </tr>
 </table>
-
 </div>
-
 ---
 
 <p align="center"><em>Made with heart and a bowl of rice.</em> ❤️</p>
