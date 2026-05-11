@@ -1,7 +1,4 @@
-# PATCH NOTE v1.3
+# PATCH NOTE v1.4
 
-## Bugs Found at Previous Patch v1.2:
-- TimerEnd sound effect still triggers after moving to another screen
+### Added UML.png
 
-## Bug Fixes
-- Added *PlayLoopingSoundEffect()* and *StopLoopingSoundEffect()* to handle the looping TimerEnd and ensure to only stop if the audio is playing to avoid pre-emptive stopping
