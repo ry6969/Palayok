@@ -1,140 +1,140 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Palayok.UI.BaseScreen" Collapsed="true">
-    <Position X="9.25" Y="5.5" Width="1.5" />
+    <Position X="15.75" Y="8.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAIAQAAAAAAQAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
       <FileName>UI\BaseScreen.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.UI.InteractiveCookingScreen" Collapsed="true">
-    <Position X="7" Y="8.5" Width="1.5" />
+    <Position X="13.5" Y="11.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAACACAkIBAAAACAAAADAAAAIAQACCAAEFBAgAA=</HashCode>
       <FileName>UI\InteractiveCookingScreen.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.UI.LoadingScreen" Collapsed="true">
-    <Position X="4.75" Y="7" Width="1.5" />
+    <Position X="11.25" Y="10" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAIAAAACAAAAEAAACAAAACAAAAAAAAAAAAAABABAA=</HashCode>
       <FileName>UI\LoadingScreen.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.UI.ModeScreen" Collapsed="true">
-    <Position X="16" Y="7" Width="1.5" />
+    <Position X="22.5" Y="10" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAEAAAAACAAAQKAAAAAAQACQAAAABAAAA=</HashCode>
       <FileName>UI\ModeScreen.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.UI.MuteBtn" Collapsed="true">
-    <Position X="20.25" Y="5.5" Width="1.5" />
+    <Position X="22.5" Y="13" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACEAAAAAAACAAAACAAAIAAAAAEAAACAIAAA=</HashCode>
       <FileName>UI\MuteBtn.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.UI.ReadOnlyCookingScreen" Collapsed="true">
-    <Position X="9.25" Y="8.5" Width="1.5" />
+    <Position X="15.75" Y="11.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAACAAAAAAAACAAAACACAAAAQACAABAABAAAA=</HashCode>
       <FileName>UI\ReadOnlyCookingScreen.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.UI.RecipeAwareScreen" Collapsed="true">
-    <Position X="10.5" Y="7" Width="1.5" />
+    <Position X="17" Y="10" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
       <FileName>UI\RecipeAwareScreen.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.UI.RecipeSelectionScreen" Collapsed="true">
-    <Position X="11.5" Y="8.5" Width="1.5" />
+    <Position X="18" Y="11.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>CAQAAMAQACAiAAABAQiAACACCAAEAAQACgBAABBAAAA=</HashCode>
       <FileName>UI\RecipeSelectionScreen.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.UI.ScreenFactory" Collapsed="true">
-    <Position X="18.5" Y="6.5" Width="1.5" />
+    <Position X="20.75" Y="14" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
       <FileName>UI\ScreenFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.UI.StartScreen" Collapsed="true">
-    <Position X="2.5" Y="7" Width="1.5" />
+    <Position X="9" Y="10" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAQACAAAAAAAACAAAADAAAAAAQAgAAAAABAAAA=</HashCode>
       <FileName>UI\StartScreen.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.UI.UniversalBackBtn" Collapsed="true">
-    <Position X="20.25" Y="6.5" Width="1.5" />
+    <Position X="22.5" Y="14" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAIACAAAAAAAQCAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>UI\UniversalBackBtn.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.UI.ViewIngredients" Collapsed="true">
-    <Position X="13.75" Y="8.5" Width="1.5" />
+    <Position X="20.25" Y="11.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAIAAAACAAAACAAACAAAACACAAAAAACAAAAABAAAA=</HashCode>
       <FileName>UI\ViewIngredients.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.MainForm" Collapsed="true">
-    <Position X="18.5" Y="5.5" Width="1.5" />
+    <Position X="20.75" Y="13" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAIAAAALAAAgABAACIAAASAAAAAAACCAChAAAAAAA=</HashCode>
       <FileName>UI\MainForm.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.Data.RecipeManager" Collapsed="true">
-    <Position X="6.5" Y="2.75" Width="1.5" />
+    <Position X="15.75" Y="13" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAACAAAAABABAAAABAAAAAAAABAASAEA=</HashCode>
       <FileName>Data\RecipeManager.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.Models.BasicStep" Collapsed="true">
-    <Position X="10.25" Y="3" Width="1.5" />
+    <Position X="8.5" Y="14.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\BasicStep.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.Models.Recipe" Collapsed="true">
-    <Position X="15" Y="1.75" Width="1.5" />
+    <Position X="13" Y="13" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\Recipe.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.Models.Step" Collapsed="true">
-    <Position X="11.5" Y="1.75" Width="1.5" />
+    <Position X="9.75" Y="13" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAACAAAA=</HashCode>
       <FileName>Models\Step.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.Models.TimedStep" Collapsed="true">
-    <Position X="12.5" Y="3" Width="1.5" />
+    <Position X="10.75" Y="14.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
       <FileName>Models\TimedStep.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.Audio.LoopStream" Collapsed="true">
-    <Position X="6.25" Y="4.25" Width="1.5" />
+    <Position X="18" Y="13" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAEAQAAAAAAAAgAAAAAABgAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Audio\AudioManager.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Palayok.Audio.AudioManager" Collapsed="true">
-    <Position X="4.5" Y="4.25" Width="1.5" />
+    <Position X="15.75" Y="13.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AACAAIoAEgAFCAAIAkAAIkAIAAoAEAAMQgAQBCAIhAA=</HashCode>
       <FileName>Audio\AudioManager.cs</FileName>

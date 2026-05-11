@@ -27,4 +27,9 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Resources\Fonts\*.ttf" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Resources\Fonts\*.otf" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
 </Project>
